@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+    padding: 0 20px;
+    
+}
