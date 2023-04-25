@@ -1,0 +1,48 @@
+li {
+    color: #fff;
+}
+
+ul {
+    color: #fff;
+}
+
+.navigation-container {
+    padding: 10px; 
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #161D2F;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+}
+
+nav img {
+    cursor: pointer;
+
+}
+
+nav div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #161D2F;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    max-width: 60px;
+    background-color: #161D2F;  
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+}
