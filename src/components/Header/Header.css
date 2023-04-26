@@ -1,5 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 input {
-    width: 100%;
-    border: none;
-    color: #fff;
+  width: 100%;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  outline: none;
+  
+}
+
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #fff; /* Increase the white border to 2px on focus */
+}
+
+
+.returned_data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 20px;
+}
+
+.returned_data img {
+  width: 150px;
+}
+
+.card_data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.movie_not_found h2 {
+  color: #fff;
 }
