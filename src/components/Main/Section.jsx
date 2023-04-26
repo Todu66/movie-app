@@ -6,7 +6,7 @@ class Section extends React.Component {
         return (
             <div className="section-container">
                 <Header />
-                <h1>dsf</h1>
+                
             </div>
         )
     }
