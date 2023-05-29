@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     background: #10141E;
+
 }
+
 
 a {
     text-decoration: none;
@@ -17,9 +19,9 @@ body {
     height: 100vh;
 }
 
-
-
-.mainHome .container{
+.mainHome {
     display: flex;
-    justify-content: center;
+    max-width: 1440px;
+    width: 1240px;
 }
+
